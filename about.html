@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Giới thiệu - NIKE STORE</title>
+    <link rel="icon" href="image/logo.jpg">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Navbar dùng lại -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="image/logo.jpg" alt="Nike" width="40"> <strong>NIKE STORE</strong>
+            </a>
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Trang chủ</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="about.html">Giới thiệu</a></li>
+                    <li class="nav-item"><a class="nav-link" href="products.html">Sản phẩm</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Hổ trợ</a></li>
+                    <li class="nav-item"><a class="nav-link" href="cart.html">🛒Giỏ hàng</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container py-5">
+        <!-- GIỚI THIỆU VỀ SHOP -->
+        <section class="mb-5 text-center">
+            <h2 class="text-uppercase fw-bold mb-4">Giới Thiệu Về NIKE STORE</h2>
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <p class="lead">
+                        NIKE STORE chuyên cung cấp giày thể thao chính hãng từ các thương hiệu nổi tiếng như Nike,
+                        Jordan, Adidas, Converse.
+                        Với đội ngũ trẻ trung, năng động và đam mê thời trang, chúng tôi cam kết mang đến trải nghiệm
+                        mua sắm tuyệt vời cho bạn.
+                    </p>
+                </div>
+                <div class="col-md-6">
+                    <img src="image/nikestore.avif" class="img-fluid rounded shadow" alt="Hình ảnh cửa hàng">
+                </div>
+            </div>
+        </section>
+
+        <hr>
+
+        <!-- SỨ MỆNH - TẦM NHÌN -->
+        <section class="mb-5">
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <img src="image/about1.webp" class="img-fluid rounded mb-3" alt="Sứ mệnh">
+                    <h4 class="fw-bold">Sứ Mệnh</h4>
+                    <p>Truyền cảm hứng vận động và thời trang qua từng đôi giày chất lượng.</p>
+                </div>
+                <div class="col-md-4">
+                    <img src="image/about2.jpg" class="img-fluid rounded mb-3" alt="Tầm nhìn">
+                    <h4 class="fw-bold">Tầm Nhìn</h4>
+                    <p>Trở thành hệ thống giày thể thao chính hãng uy tín hàng đầu Việt Nam.</p>
+                </div>
+                <div class="col-md-4">
+                    <img src="image/about3.jpg" class="img-fluid rounded mb-3" alt="Giá trị">
+                    <h4 class="fw-bold">Giá Trị Cốt Lõi</h4>
+                    <p>Chính hãng – Chất lượng – Đổi mới – Uy tín</p>
+                </div>
+            </div>
+        </section>
+
+        <hr>
+        <!-- SẢN PHẨM -->
+        <div class="container my-5">
+            <h2 class="text-center mb-4">Sản Phẩm Của Chúng Tôi</h2>
+
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 g-4">
+                <!--sản phẩm 1-->
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="image/sp1.avif" class="card-img-top" alt="Air Jordan 1 Low">
+                        <div class="card-body">
+                            <h5 class="card-title">Air Jordan 1 Low</h5>
+                            <p class="card-text">NIKE</p>
+                            <p class="card-text"><b>3,519,000₫</b></p>
+                            <button class="btn btn-dark text-white mt-2 w-100"
+                                onclick="goToDetail('Air Jordan 1 Low', 3519000, 'image/sp1.avif', 'AJ1LOW1')">Xem chi
+                                tiết
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <!--sản phẩm 3-->
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="image/sp3.avif" class="card-img-top" alt="Air Jordan 1 Low">
+                        <div class="card-body">
+                            <h5 class="card-title">Air Jordan 1 Low</h5>
+                            <p class="card-text">NIKE</p>
+                            <p class="card-text"><b>3,239,000₫</b></p>
+                            <button class="btn btn-dark text-white mt-2 w-100"
+                                onclick="goToDetail('Air Jordan 1 Low', 3239000, 'image/sp3.avif', 'AJ1LOW3')">Xem chi
+                                tiết
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <!--sản phẩm 5-->
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="image/sp5.avif" class="card-img-top" alt="Air Jordan 1 Low">
+                        <div class="card-body">
+                            <h5 class="card-title">Air Jordan 1 Low</h5>
+                            <p class="card-text">NIKE</p>
+                            <p class="card-text"><b>3,239,000₫</b></p>
+                            <button class="btn btn-dark text-white mt-2 w-100"
+                                onclick="goToDetail('Air Jordan 1 Low', 3239000, 'image/sp5.avif', 'AJ1LOW5')">Xem chi
+                                tiết
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <!--sản phẩm 8-->
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="image/sp8.avif" class="card-img-top" alt="Jordan CMFT Era">
+                        <div class="card-body">
+                            <h5 class="card-title">Jordan CMFT Era</h5>
+                            <p class="card-text">NIKE</p>
+                            <p class="card-text"><b>3,519,000₫</b></p>
+                            <button class="btn btn-dark text-white mt-2 w-100"
+                                onclick="goToDetail('Jordan CMFT Era', 3519000, 'image/sp8.avif', 'AJ1LOW8')">Xem chi
+                                tiết
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <hr>
+        <!-- CAM KẾT -->
+        <section class="bg-light p-4 rounded mb-5">
+            <h3 class="fw-bold mb-3 text-center">Cam Kết Của NIKE STORE</h3>
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="image/about4.jpg" class="img-fluid rounded shadow" alt="Cam kết chất lượng">
+                </div>
+                <div class="col-md-6">
+                    <ul>
+                        <li>✅ 100% hàng chính hãng, đầy đủ hóa đơn</li>
+                        <li>🔁 Đổi trả trong 7 ngày nếu lỗi sản xuất</li>
+                        <li>🚚 Giao hàng siêu tốc toàn quốc</li>
+                        <li>📞 Hỗ trợ khách hàng 24/7</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <!-- Footer -->
+    <footer style="background-color: #111; color: #fff; padding: 40px 10%; font-family: sans-serif;">
+        <div style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 30px;">
+
+            <!-- Cột 1: Giới thiệu -->
+            <div style="flex: 1; min-width: 200px;">
+                <h4>Về NikeStore</h4>
+                <ul style="list-style: none; padding: 0;">
+                    <li><a href="#" style="color: #ccc;">Giới thiệu</a></li>
+                    <li><a href="#" style="color: #ccc;">Hệ thống cửa hàng</a></li>
+                    <li><a href="#" style="color: #ccc;">Tuyển dụng</a></li>
+                    <li><a href="#" style="color: #ccc;">Blog thời trang</a></li>
+                </ul>
+            </div>
+
+            <!-- Cột 2: Hỗ trợ khách hàng -->
+            <div style="flex: 1; min-width: 200px;">
+                <h4>Hỗ trợ khách hàng</h4>
+                <ul style="list-style: none; padding: 0;">
+                    <li><a href="#" style="color: #ccc;">Chính sách đổi trả</a></li>
+                    <li><a href="#" style="color: #ccc;">Hướng dẫn mua hàng</a></li>
+                    <li><a href="#" style="color: #ccc;">Thanh toán & giao hàng</a></li>
+                    <li><a href="#" style="color: #ccc;">Câu hỏi thường gặp</a></li>
+                </ul>
+            </div>
+
+            <!-- Cột 3: Thông tin liên hệ -->
+            <div style="flex: 1; min-width: 200px;">
+                <h4>Liên hệ</h4>
+                <p>🏬 123 Lê Lợi, Quận 1, TP.HCM</p>
+                <p>📞 Hotline: 1900 123 456</p>
+                <p>📧 Email: hotro@nikestore.vn</p>
+                <p>🕘 Thời gian: 8h – 21h (T2 – CN)</p>
+            </div>
+
+            <!-- Cột 4: Kết nối mạng xã hội -->
+            <div style="flex: 1; min-width: 200px;">
+                <h4>Kết nối với chúng tôi</h4>
+                <div style="display: flex; gap: 10px;">
+                    <a href="#"><img src="https://cdn-icons-png.flaticon.com/128/733/733547.png" width="30"
+                            alt="Facebook"></a>
+                    <a href="#"><img src="https://cdn-icons-png.flaticon.com/128/3670/3670151.png" width="30"
+                            alt="Instagram"></a>
+                    <a href="#"><img src="https://cdn-icons-png.flaticon.com/128/1384/1384060.png" width="30"
+                            alt="YouTube"></a>
+                    <a href="#"><img src="https://cdn-icons-png.flaticon.com/128/5968/5968841.png" width="30"
+                            alt="TikTok"></a>
+                </div>
+                <p style="margin-top: 10px;">Đăng ký nhận ưu đãi mỗi tuần</p>
+                <input type="email" placeholder="Nhập email của bạn" style="padding: 5px; width: 90%;">
+            </div>
+
+        </div>
+
+        <!-- Dòng bản quyền -->
+        <div style="text-align: center; padding-top: 30px; border-top: 1px solid #444; margin-top: 30px;">
+            <p style="color: #888;">© 2025 NikeStore.vn – Giày Nike chính hãng. Thiết kế bởi Nhóm 39 – Đại học
+                Nguyễn
+                Tất
+                Thành.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
